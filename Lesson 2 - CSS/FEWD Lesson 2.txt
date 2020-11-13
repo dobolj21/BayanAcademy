@@ -1,0 +1,305 @@
+1.Selector Exercise 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="selexstyle.css"> 
+</head>
+<body>
+
+<h1>Selector Exercise</h1>
+
+<p>PARAGRAPH NOT INSIDE A DIV</p>
+<p class="hello"> I am a paragraph with a class</p>
+<p id="special"> I am a paragraph with an ID</p>
+
+</body>
+
+<body>
+    <h2>I am an awesome h2</h2>
+        
+        <p>Kickstarter asymmetrical selvage vexillologist tousled art party pour-over. Literally artisan letterpress, enamel pin schiltz forage pop-up. Semiotics migas hot chicken, tide fashion axe poutine echo park 
+            portland neutra. Fashion axe woke DIY actually hexagon cold-pressed jeanshorts raclette. Brunch food truck marfacharteuse kitschloko la croix direct trade single-origin coffee photo booth cold-
+            pressed jean shorts messenger bag pork belly. Banjo austin mixtape cronut. Yuccie you probably haven't heard of them whatever brunch squid messenger bag jianbing meditation.</p>
+
+</body>
+
+<body>
+    <h2>Things I need to do</h2>
+    <ul>
+        <li>Walk Dog <input type ="checkbox"></li>
+        <li>Feed Dog <input type="checkbox"></li>
+        <li>Wash Dog <input type="checkbox"></li>
+    </ul>
+</body>
+
+<body>
+    <h2>I am another awesome h2</h2>
+  
+<p2> Pickled letterpress cronut unicorn. +1 scenester typewriter brooklyn pour-over tousled,<em> cardigan godard cornhole semiotics poutibe aesthetic art party.</em>Plaid hashtag 90's gastropub, cardigan iceland kale</p2>
+<p2> chips bicycle rights marfa put a bird on it kickstarter coloring book squid. Hella affogato offal, 90's kale chips fam waistcoat iPhone. Street art listicle ugh, cloud bread sustainable edison bulb try hard</p2>
+<p2> cornhole tofu before they sold out beard organic. Actually tousled try-hard blue bottle tattooed. Hexagon gluten-free ugh, humblebrag post-ironiv selvage flannel.</p2>
+</body>
+
+<body>
+
+    <div>
+ <p2>I am the second paragraph inside this div!</p2> 
+</div>
+
+</body>
+
+<body>
+    <p>PARAGRAPH NOT INSIDE A DIV</p>
+    <h2> A less awesome h2</h2>
+
+    <p>Gastropub chicharrones fingerstache, meggings palo santo cronut church-key shabby chic pickled kale chips hammock cold-pressed bespoke austin. Ramps cronut vape chartreuse brooklyn flannel</p>
+    <p>Adoptogen helvetica ennui, hexagon copper mug forage offal hella hashtag cardigan craft beer. Roof party gluten-free lomo affogato pinterest hoodie woke hashtag try-hard selfies brooklyn tacos.</p>
+    <p>Vapoware flexitarian marfa gluten-free jianbing snackware. Af wayfarers echo park taiyaki, mustache hexagon sriracha asymmetrical disrupt dreamcatcher scenester kinfolknprism.</p>
+
+    <p>One last paragraph here</p>
+
+    <a href= "I am a link to Hacker News" target="_blank">I am a link to Hacker News</a>
+    <a href= "I am a link to DevSprout"target="_blank">I am a link to DevSprout</a> 
+
+
+<form> 
+        <input type="firstname">NAME
+</form>
+
+<form>
+        <input type="firstname">PASSWORD
+</form>
+            
+    <p>PARAGRAPH NOT INSIDE A DIV</P>
+   >
+
+</body>
+
+</body>
+   
+</body>
+
+</html>
+    
+</body>
+</html>
+
+1. Style
+
+<body> {
+       background: #bdc3c7;
+       border: 
+} 
+h1 {
+    background: #9b59b6;
+}
+
+h2 {
+    color: orange;
+}
+ul {
+    border: white;
+}
+li {
+    color: #0000ff;
+}
+p {
+    background: yellow;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#special {
+    border: 2px solid rgb(44, 48, 229);
+}
+#special::first-letter {
+  font-size: 200%;
+  color: green;
+}
+
+.hello {
+    background: white;
+}
+div {
+    font-size: 25px; background: pink; border: white; 
+    text-align: justify;
+    text-justify: inter-word;
+}
+p2 {
+    background: pink;
+    text-align: justify;
+    text-justify: inter-word;
+}
+input {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+em {
+    font-size:20px
+}
+body {
+    background-image: url(gray.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+    border: 5px solid white;
+}
+
+style
+<h1> {
+   color: blue;
+} </h1>
+
+hi {
+   font-family: Arial;
+}
+
+2. TIC TAC TOE
+html:
+<div class="container"></div>
+<script src="app.js"></script>
+</body>
+
+<div class="container">
+    <h1>Tic-Tac-Toe</h1>
+    <div class="play-area">
+<div id="block_0" class="block"></div>
+        <div id="block_1" class="block"></div>
+        <div id="block_2" class="block"></div>
+        <div id="block_3" class="block"></div>
+        <div id="block_4" class="block"></div>
+        <div id="block_5" class="block"></div>
+        <div id="block_6" class="block"></div>
+        <div id="block_7" class="block"></div>
+        <div id="block_8" class="block"></div>
+    </div>
+
+    <div class="container">
+        <!-- REST OF THE CODE -->
+        <h2 id="winner"></h2>
+        <button onclick="reset_board()">RESET BOARD</button>
+    </div>
+style:
+}
+button {
+  outline: none;
+  border: 4px solid green;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: none;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background: green;
+  color: white;
+}
+.play-area {
+  display: grid;
+  width: 300px;
+  height: 300px;
+  grid-template-columns: auto auto auto;
+}
+.block {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 3px solid black;
+  transition: background 0.2s ease-in-out;
+}
+.block:hover {
+  cursor: pointer;
+  background: #0ff30f;
+}
+.occupied:hover {
+  background: #ff3a3a;
+}
+#block_0,
+#block_1,
+#block_2 {
+  border-top: none;
+}
+
+#block_0,
+#block_3,
+#block_6 {
+  border-left: none;
+}
+
+#block_6,
+#block_7,
+#block_8 {
+  border-bottom: none;
+}
+
+#block_2,
+#block_5,
+#block_8 {
+  border-right: none;
+}
+
+img {
+   width: 30%;
+   float: left;
+   margin:1.66%;
+}
+
+for photo blog
+
+<p>Image Blog</p>
+<img src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg">
+<img src="http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg">
+<img src="http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg">
+
+<img src="http://c1.staticflickr.com/9/8788/17367410309_78abb9e5b6_b.jpg">
+<img src="http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg">
+<img src="http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg">
+
+<img src="http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg">
+<img src="http://c2.staticflickr.com/4/3888/14878097108_5997041006_b.jpg">
+<img src="http://c2.staticflickr.com/8/7579/15482110477_0b0e9e5421_b.jpg">
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector Exercise</title>
+
+</head>
+<body>
+  <h1>Selector Exercise</h1>
+
+  <p>PARAGRAPH NOT INSIDE A DIV</p>
+  <p>I am a paragraph with a class</p>
+  <p>I am a paragraph with an ID</p
+
+  </body>
+
+<body>
+ <h2>I am an awesome h2</h2>
+
+<img src="download.jpg">
+
+</body>
+ 
+<body> {
+       background-positionor:  ="#bdc3c7*";
+} 
+h1 {
+    background="#9b59b6*"
+}
+h2 {
+    color: ;
+}

@@ -1,0 +1,95 @@
+var name = "Jeff"
+undefined
+"Hello" + name
+"HelloJeff
+
+(age % 2 !== 0)
+ganito po yung ginawa ko sa age is odd
+ewan ko lang kung tama
+
+
+while loops- repeat condition is true
+
+var (count < 6) {
+console.log("count is: " + count);
+count++;
+}
+
+var count=1
+
+while (count < 6) {
+console.log(consol is:" + count);
+count++;
+}
+
+string we're looping over
+
+var str = "hello"
+
+//first character is at index 0 (always start with zero)
+var count= 0;
+while (count < str.length) {
+consol.log(str[count]);
+count++;
+}
+
+var count=0;
+
+while (count<10) {
+console.log(count);
+}
+
+
+
+
+//var firstname = prompt("What is your firstname?");
+//var lastname = prompt("What is your lastname?");
+//var agename = prompt("How old are you?");
+
+//alert("Your fullname is " + Aldrin John + Tamayo);
+
+//console.log("You are " + Aldrin John Tamayo + " 17");
+
+//var age = 8;
+
+//if (age < 18) {
+   // console.log("You cannot enter the venue");
+
+//}
+
+//else if (age < 18 && 21) {
+   // console.log("You can enter, but cannot drink");
+
+//}
+//else {
+   // console.log("You can enter and drink");
+//}
+
+//let number = prompt("Enter a number: ");
+
+//if (number % 18 == 0) {
+   // console.log("The number is even.");
+//}
+
+//else if else {
+   // console.log("The number is odd.");
+//}
+//ask use for a guess
+var guess = prompt("Guess a number");
+//check if the guess is right
+if (Number(guess)=== secretNumber) {
+    alert("You guessed the right number");
+}
+else if (Number(guess) > secretNumber) {
+    alert("Your guess is too high.")
+
+else{
+    alert("Your guess is too low")
+}
+
+
+// var count = 0;
+
+// while (count < 10) {
+//     console.log(count);
+// }

@@ -1,0 +1,14 @@
+body,html{
+   height:100%;
+   background:url(https://edukasyon-production.s3.amazonaws.com/uploads/school/avatar/2926/bayan-academy.jpg) no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+    }
+
+   #intro{
+       height:100%;
+   }
+   
+ 

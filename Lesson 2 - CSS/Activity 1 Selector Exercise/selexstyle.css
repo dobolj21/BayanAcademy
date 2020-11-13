@@ -1,0 +1,58 @@
+<body> {
+       background: #bdc3c7;
+       border: 
+} 
+h1 {
+    background: #9b59b6;
+}
+
+h2 {
+    color: orange;
+}
+ul {
+    border: white;
+}
+li {
+    color: #0000ff;
+}
+p {
+    background: yellow;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#special {
+    border: 2px solid rgb(44, 48, 229);
+}
+#special::first-letter {
+  font-size: 200%;
+  color: green;
+}
+
+.hello {
+    background: white;
+}
+div {
+    font-size: 25px; background: pink; border: white; 
+    text-align: justify;
+    text-justify: inter-word;
+}
+p2 {
+    background: pink;
+    text-align: justify;
+    text-justify: inter-word;
+}
+input {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+em {
+    font-size:20px
+}
+body {
+    background-image: url(gray.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+    border: 5px solid white;
+}

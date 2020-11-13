@@ -1,0 +1,220 @@
+1. strong, ol, ul, 
+
+<!DOCTYPE html>
+<html>
+<head>
+
+     <title>HTML Lists of Activity</title>
+</head>
+<body>
+
+    <h1>Things I've Learned</h1>
+
+    <h2>Internet Basic</h2>
+ <ol>
+    <li>HTTP request</li>
+    <li>IP Address</li>
+    <li>Servers</li></ol>
+
+
+<h3>HTML</h3>
+
+<ul>
+    <li>Stands for<strong> Hyper Text Mark-up Language</strong></li>
+    <li>Lots of tags</li>
+<ul><li>Boilerplate</li></ul>
+<ol>
+    <li>Doctype</li>
+    <li>HTML</li>
+    <li>Head</li>
+<ol>
+    <li>Title</li></ol>
+
+<li>Body</li></ol>
+
+<p><ul><li>Headings</li>
+<li>Paragraph</li>
+<li><em>em</em></li>
+<li><strong>strong</strong></li></ul><p>
+</body>
+</html> 
+
+2. Inserting image
+ 
+<!DOCTYPE html>
+<html>
+<head> 
+   <meta charset ="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Name of the dog</title>
+</head>
+<body>
+     <h1><strong>Name of the dog</strong></h1>
+     <p>Hi, I am Brownie.<span> Woof!</p>
+
+<img src=“puppy-dog.jpg">
+</body>
+</html>
+
+<body>
+<h2><small>Some of my favorite places</h2></small>
+<p><ul><small>
+<li>The beach</li>
+<li>The dog park</li>
+<li>The fire hydrant</li></small></div></ul></p>
+
+<p>Make sure you follow me on <a href="https/www.instagram.com/?hl=en"
+"target=_blank">instagram</a></p>
+
+</body>
+</html>
+
+3.Table with images
+
+<!DOCTYPE html>
+<html>
+<head> 
+   <meta charset ="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>First Gen Pokemon</title>
+</head>
+<body>
+     <h1>First Gen Pokemon</h1>
+<table>
+<table border="1">
+<thread>
+<tr>
+   <th>Image</th>
+   <th>Name</th>
+   <th>Type</th>
+   <th>Evolves into</th>
+<tr>
+   <td><img src=“bulbasaur.png"></td>
+   <td>Bulbasaur</td>
+   <td>Grass/poison</td>
+   <td><a href="http://pokemon.wikia.com/wiki/Ivysaur">Ivysaur</a> </td>
+<tr>
+   <td><img src=“Charmander.png"></td>
+   <td>Charmanderr</td>
+   <td>Fire</td>
+   <td><a href="http://pokemon.wikia.com/wiki/Charmeleon">Charmeleon</a></td>
+
+<tr>
+   <td><img src=“Squirtle.png"></td>
+   <td>Squirtle</td>
+   <td>Water</td>
+   <td><a href="http://pokemon.wikia.com/wiki/Wartortle">Wartortle</a></td>
+
+  
+</body>
+</html>
+
+4. Fill-in data
+
+<!DOCTYPE html>
+<html>
+<head> 
+   <meta charset ="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Register</title>
+</head>
+<body>
+     <h1>Register</h1>
+<form>
+ <p>First name:<input type="firstname" placeholder="first name">
+ Last name:<input type="lastname" placeholder="first name"></p>
+</form>
+
+<p>
+<form>
+ <label for="Male">Male: </label>
+ <input type="radio" name="Male" 
+
+ <label for="Female">Female: </label>
+ <input type="radio" name="Female"
+
+ <label for="Other">Other: </label>
+ <input type="radio" name="Other"</p>
+
+</form>
+
+<form>
+ <p>E-mail:<input type="text" placeholder="your email here...">
+ Password:<input type="password" placeholder="your password here..."></p>
+</form>
+
+<form>
+ <p>Birthday:<select name="Month"
+   	<option value="Month"> placeholder="Month"</option>
+   	<option value="January"> January</option>
+	<option value="February"> February</option>
+	<option value="March"> March</option>
+	<option value="April"> April</option>
+	<option value="May"> May</option>
+	<option value="June"> June</option>
+	<option value="July"> July</option>
+	<option value="August"> August</option>
+	<option value="September"> September</option>
+	<option value="October"> October</option>
+	<option value="November"> November</option>
+	<option value="December"> December</option></p>
+</select>
+<select name="days" 
+	<option value="days"> placeholder="days"</option>
+	<option value="1"> 1</option>
+	<option value="2"> 2</option>
+	<option value="3"> 3</option>
+	<option value="4"> 4</option>
+	<option value="5"> 5</option>
+	<option value="6"> 6</option>
+	<option value="7"> 7</option>
+	<option value="8"> 8</option>
+	<option value="9"> 9</option>
+	<option value="10"> 10</option>
+	<option value="11> 11</option>
+	<option value="12"> 12</option>
+	<option value="13"> 13</option>
+	<option value="14"> 14</option>
+	<option value="15"> 15</option>
+	<option value="16"> 16</option>
+	<option value="17"> 17</option>
+	<option value="18"> 18</option>
+	<option value="19"> 19</option>
+</select>
+<select name="year" 
+	<option value="year"> placeholder="year"</option>
+	<option value="2020"> 2020</option>
+	<option value="2019"> 2019</option>
+	<option value="2018"> 2018</option>
+	<option value="2017"> 2017</option>
+	<option value="2016"> 2016</option>
+	<option value="2015"> 2015</option>
+	<option value="2014"> 2014</option>
+	<option value="2013"> 2013</option>
+	<option value="2012"> 2012</option>
+	<option value="2011"> 2011</option>
+
+</select>
+</form>
+
+<form>
+ <p><input type="checkbox" name="I agree to the terms and condition"> I agree to the terms and conditions
+ </p>
+
+</form>
+
+
+<input type="submit" name="submit" value="Submit">
+
+
+</form>
+</body>
+
+
+
+
+
+
+
+
+      

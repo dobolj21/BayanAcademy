@@ -1,0 +1,53 @@
+h1 {
+    color:#3498db;
+    font-size: 15px;
+    text-align: justify;
+    font-family:source sans pro,sans-serif;
+}
+body {
+        font-family: sans pro
+        border: 2px solid color: gray;
+}
+h2 {
+    color: #2c3e50;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p {
+    text-align: justify;
+    border: 2px solid color: gray;
+    font-size: 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 0.7;
+    word-spacing: 5px;
+
+}
+.border {
+    width: 600px;
+    margin: 0 auto;
+    border:solid 8px rgb(185, 181, 181);
+    padding: 20px;
+    border-radius:10px;
+    -moz-border-radius: 10px;
+}
+.p1 {
+    padding: 20px;
+    border-left: solid 3px rgb(185, 181, 181);
+}
+.p2 {
+    padding: 20px;
+}
+.p3 {
+    padding: 20px;
+}
+.p4 {
+    padding: 20px;
+    border-left: solid 3px rgb(185, 181, 181);
+}
+.p5 {
+    padding: 20px;
+}
+.p6 {
+    padding: 20px;
+}
